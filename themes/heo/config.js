@@ -17,7 +17,7 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享',
-  HEO_HERO_TITLE_2: '自我创造的愉悦',
+  HEO_HERO_TITLE_2: '创造的愉悦',
   HEO_HERO_TITLE_3: 'When people accept themselves just as they are, they are more likely to change for the better',
   HEO_HERO_TITLE_4: '嘿，来了！先看看这篇',
   HEO_HERO_TITLE_5: '知识收纳——如何搭建简洁的个人知识管理系统',
