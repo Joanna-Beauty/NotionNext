@@ -23,7 +23,7 @@ const CONFIG = {
   HEO_HERO_TITLE_5: '知识收纳——如何搭建简洁的个人知识管理系统',
   HEO_HERO_TITLE_LINK: 'https://www.notion.so/2bc179acce4780afb360e620da89dbc2',
   // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '随机抽一篇',
+  HEO_HERO_COVER_TITLE: '随机看一篇',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '元认知', url: '/tag/元认知' },
