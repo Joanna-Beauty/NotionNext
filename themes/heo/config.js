@@ -19,16 +19,16 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享',
   HEO_HERO_TITLE_2: '创造的愉悦',
   HEO_HERO_TITLE_3: 'When people accept themselves just as they are, they are more likely to change for the better',
-  HEO_HERO_TITLE_4: '嘿，来了！先看看这篇',
-  HEO_HERO_TITLE_5: '知识收纳——如何搭建简洁的个人知识管理系统',
-  HEO_HERO_TITLE_LINK: 'https://www.notion.so/2bc179acce4780afb360e620da89dbc2',
+  HEO_HERO_TITLE_4: '嘿，来了！跟我一起',
+  HEO_HERO_TITLE_5: '加点简单，多些想象',
+  HEO_HERO_TITLE_LINK: 'https://simple.joanna.click/',
   // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '随机看一篇',
+  HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '元认知', url: '/tag/元认知' },
-  HEO_HERO_CATEGORY_2: { title: '软技能', url: '/tag/软技能' },
-  HEO_HERO_CATEGORY_3: { title: '纯干货', url: '/tag/纯干货' },
+  HEO_HERO_CATEGORY_1: { title: '认知', url: '/tag/元认知' },
+  HEO_HERO_CATEGORY_2: { title: '技能', url: '/tag/软技能' },
+  HEO_HERO_CATEGORY_3: { title: '干货', url: '/tag/纯干货' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -37,11 +37,12 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
+    'Hi！我是',
+    '❤️ 温暖知心小树洞',
+    '🌟 热爱生活分享家',
+    '📚 持续学习求知者',
     '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
+    '💡 脑洞大开创意者',
     '🤖️ 数码科技爱好者',
     '🧱 团队小组发动机'
   ],
