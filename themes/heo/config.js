@@ -18,12 +18,12 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享',
   HEO_HERO_TITLE_2: '创造的愉悦',
-  HEO_HERO_TITLE_3: 'When people accept themselves just as they are, they are more likely to change for the better',
+  HEO_HERO_TITLE_3: 'Let’s embrace the wonderful pleasure of creating together!',
   HEO_HERO_TITLE_4: '嘿，来了！跟我一起',
   HEO_HERO_TITLE_5: '加点简单，多些想象',
   HEO_HERO_TITLE_LINK: 'https://simple.joanna.click/',
   // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '随便逛逛',
+  HEO_HERO_COVER_TITLE: '随便看看',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '认知', url: '/tag/元认知' },
