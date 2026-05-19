@@ -320,6 +320,8 @@ function TodayCard({ cRef, siteInfo }) {
   const router = useRouter()
   const link = siteConfig('HEO_HERO_TITLE_LINK', null, CONFIG)
   const { locale } = useGlobal()
+  const heroRecommendCover =
+    siteConfig('HEO_HERO_RECOMMEND_COVER', null, CONFIG) || siteInfo?.pageCover
   // 获取遮罩控制配置
   const coverEnable = siteConfig('HEO_HERO_RECOMMEND_COVER_ENABLE', true, CONFIG)
   // 卡牌是否盖住下层，如果配置为false则默认不盖住
@@ -405,7 +407,7 @@ function TodayCard({ cRef, siteInfo }) {
         {/* 封面图 */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={siteInfo?.pageCover}
+          src={heroRecommendCover}
           id='today-card-cover'
           className={`${
             isCoverUp ? '' : ' pointer-events-none'

@@ -42,12 +42,12 @@ export function InfoCard(props) {
 
       <h2 className='text-3xl font-extrabold mt-3'>{siteConfig('AUTHOR')}</h2>
 
-      <RewardCode />
-
       {/* 公告栏 */}
       <Announcement post={notice} style={{ color: 'white !important' }} />
 
-      <div className='text-xs leading-6 text-indigo-100 dark:text-yellow-100 mt-2 mb-4'>
+      <RewardCode />
+
+      <div className='text-sm leading-6 text-indigo-100 dark:text-yellow-100 mt-1 mb-5'>
         如果觉得内容有帮到你，欢迎☕buy me a coffee～支持我继续创作～
       </div>
 
@@ -78,7 +78,7 @@ export function InfoCard(props) {
 
 function RewardCode() {
   return (
-    <div className='mt-4 mb-2 rounded-2xl overflow-hidden bg-white/95 p-3'>
+    <div className='mt-3 mb-3 rounded-2xl overflow-hidden bg-white/95 p-3'>
       <LazyImage
         src='/buy-me-a-coffee.jpg'
         alt='buy me a coffee'
